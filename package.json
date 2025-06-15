@@ -1,0 +1,28 @@
+{
+  "name": "vue-theme-plugin",
+  "version": "1.0.0",
+  "main": "dist/vue-theme-plugin.umd.js",
+  "module": "dist/vue-theme-plugin.es.js",
+  "types": "dist/types/useTheme.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vue-tsc --noEmit && vite build",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "sdbnd (Ota)",
+  "license": "MIT",
+  "description": "",
+  "homepage": "",
+  "dependencies": {
+    "vue": "^3.5.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "rollup": "^4.43.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
