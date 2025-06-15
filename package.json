@@ -14,8 +14,8 @@
   "keywords": [],
   "author": "sdbnd (Ota)",
   "license": "MIT",
-  "description": "",
-  "homepage": "",
+  "description": "A Vue 3 composable plugin for flexible theme management. Supports any number of themes, configurable storage, and reactive updates. No hard dependency on 'dark' or 'light' themes.",
+  "homepage": "https://github.com/Otaku17/vue-theme-plugin",
   "dependencies": {
     "vue": "^3.5.16"
   },
