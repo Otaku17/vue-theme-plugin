@@ -1,5 +1,5 @@
 {
-  "name": "@ota/vue-theme-plugin",
+  "name": "@sdbnd/vue-theme-plugin",
   "version": "1.0.0",
   "main": "dist/vue-theme-plugin.umd.js",
   "module": "dist/vue-theme-plugin.es.js",
