@@ -1,5 +1,5 @@
 
-# vue-theme-plugin
+# @sdbnd/vue-theme-plugin
 
 A Vue 3 composable plugin for flexible theme management. Supports any number of themes, configurable storage, and reactive updates. No hard dependency on 'dark' or 'light' themes.
 
@@ -15,13 +15,13 @@ A Vue 3 composable plugin for flexible theme management. Supports any number of 
 ## Installation
 
 ```bash
-npm install vue-theme-plugin
+npm install @sdbnd/vue-theme-plugin
 ```
 
 ## Usage
 
 ```ts
-import { useTheme } from 'vue-theme-plugin';
+import { useTheme } from '@sdbnd/vue-theme-plugin';
 
 const { theme, setTheme, toggleTheme } = useTheme({
   available: ['red', 'blue', 'green'],
